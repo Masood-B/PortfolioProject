@@ -5,13 +5,12 @@
 }
 footer{
     text-align: center;
-  position: fixed;
             bottom: 0;
             width: 100%;
             
 }
 .container-fluid{
-    background-color: grey;
+    background-color: rgba(139,48,127,255);
     margin: 0;
     padding: 0;
 }
@@ -32,15 +31,64 @@ border-radius: 50%
     margin: 0 auto;
 }
 .user_image img{
-width: 100%;
+ width: 100%; 
 max-width: 100%;
-max-height: 100%;
+max-height: 150%;
+
+
 }
 
-.left{
-    float: left;
+.user_text1{
+    display: flex;
+    justify-content: end;
+}
+.user_name1 {
+    display: flex;
+    justify-content: end;
 }
 
-.right{
-    float: right;
+.test{
+    margin: 10rem auto;
 }
+
+.button-center{
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.front-pic{
+    border-radius: 50%;
+    width: 20rem;
+}
+
+.flex-grow-1{
+    padding-right: 2rem;
+}
+.butten{
+width: 50%;
+}
+
+.about-pic{
+    border-radius: 50%;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    margin: 3rem;
+}
+.aboutyou{
+    margin: 5rem auto;
+}
+.about-pic{
+    border-radius: 50%;
+    width: 20rem;
+    margin-bottom: 10rem;
+}
+body{
+        background-image: linear-gradient(to bottom right, rgba(120,167,211,255), rgba(104,130,187,255));
+        background-repeat: no-repeat;
+      }

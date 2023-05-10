@@ -7,10 +7,11 @@ footer{
     text-align: center;
             bottom: 0;
             width: 100%;
+            position: fixed;
             
 }
 .container-fluid{
-    background-color: rgba(139,48,127,255);
+    background-color: rgb(224, 57, 57);
     margin: 0;
     padding: 0;
 }
@@ -88,7 +89,3 @@ width: 50%;
     width: 20rem;
     margin-bottom: 10rem;
 }
-body{
-        background-image: linear-gradient(to bottom right, rgba(120,167,211,255), rgba(104,130,187,255));
-        background-repeat: no-repeat;
-      }

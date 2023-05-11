@@ -38,11 +38,17 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.widespread{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   width: 50%;
+}
+@media (max-width:502px) {
+  .container{
+    
+    justify-content:left;
+  }
 }
     </style>
 </head>
@@ -110,7 +116,7 @@ input[type=submit]:hover {
 
     <form action="https://formspree.io/f/xbjewvba" method="post"> <label>
       
-    <div class="container" style="margin-left: 27rem">
+    <div class="container widespread" style="margin-left: 24.5rem">
       <form action="action_page.php">
     
         <label for="fname">First Name</label>
@@ -129,10 +135,16 @@ input[type=submit]:hover {
 
       </form>
     </div>
-<br>
+<br><br><br>
   </main>
- <footer>
-  &copy; 2023 Copyright
- </footer>
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <p>&copy;2023 Copyright</p> 
+</footer>
 </body>
 </html>

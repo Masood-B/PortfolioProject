@@ -366,6 +366,13 @@ body{
      text-align: center;
 
     }
+    .timeline::after, .container::after, .container::before{
+      display:none;
+    }
+    .container {
+      position: static!important;
+    }
+   
   }
 
 @media screen and (width < 900px) {

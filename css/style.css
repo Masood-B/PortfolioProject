@@ -164,10 +164,15 @@ max-height: 150%;
 .test{
     margin: 10rem auto;
 }
+.middle-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 .button-center{
-    margin-left: 4rem;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .front-pic{
@@ -181,6 +186,9 @@ max-height: 150%;
     padding-right: 2rem;
 }
 
+.about-text{
+  margin-bottom: 1rem;
+}
 
 .about-pic{
     border-radius: 50%;
@@ -210,6 +218,7 @@ body{
     background-image: linear-gradient(to right, rgba(137,170,227,255),rgba(137,170,227,255))    ;
     background-repeat: no-repeat;
 }
+
       
 .ag-format-container {
     width: 100%;
@@ -368,4 +377,10 @@ body{
       display: none;  
     }
   
+  }
+  @media(max-width:599px){
+    .timeline{
+     text-align: center;
+
+    }
   }

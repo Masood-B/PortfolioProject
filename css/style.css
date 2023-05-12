@@ -8,9 +8,9 @@
 }
 .footer {
     position: relative;
+    bottom: 0;
     width: 100%;
     background: #3586ff;
-    /* padding: 20px 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +121,7 @@
     }
   }
   
-.container-fluid{
+.nnavbar{
     background-color: rgba(234,116,142,255);
     margin: 0;
     padding: 0;
@@ -161,8 +161,15 @@ max-height: 150%;
     justify-content: end;
 }
 
+.about-row{
+  margin-top: 2rem;
+}
+.about-flow{
+  margin-bottom: 4rem;
+}
+
 .test{
-    margin: 10rem auto;
+    margin: 5rem auto;
 }
 .middle-text{
   display: flex;
@@ -170,28 +177,19 @@ max-height: 150%;
   text-align: center;
 }
 
-.button-center{
-  display: flex;
-  justify-content: center;
-}
+
 
 .front-pic{
-    border-radius: 50%;
-    width: 20rem;
     border: 1px solid black;
-    margin-bottom: 1rem;
+    margin-top: 50%;
 }
 
-.flex-grow-1{
-    padding-right: 2rem;
+.center-tags{
+  margin-top: 35%
 }
 
 .about-text{
   margin-bottom: 1rem;
-}
-
-.about-pic{
-    border-radius: 50%;
 }
 
 .project{
@@ -209,10 +207,8 @@ max-height: 150%;
     margin: 5rem auto;
 }
 .about-pic{
-    border-radius: 50%;
-    width: 20rem;
-    margin-bottom: 6rem;
     border: 1px solid black;
+    margin-top: 2rem;
 }
 body{
     background-image: linear-gradient(to right, rgba(137,170,227,255),rgba(137,170,227,255))    ;
@@ -364,23 +360,16 @@ body{
       font-size: 16px;
     }
   }
-  /* .move-even{
-    margin-left: 9rem;
-    padding-bottom: 4.1 rem;
-  } */
-
-  @media (max-width:502px){
-    .front-pic{
-        display: none;
-    }
-    .about-pic{
-      display: none;  
-    }
-  
-  }
-  @media(max-width:599px){
+ 
+  @media(max-width:450px){
     .timeline{
      text-align: center;
 
     }
   }
+
+@media screen and (width < 900px) {
+  .aboutyou {
+    width: 100%!important;
+  }
+}

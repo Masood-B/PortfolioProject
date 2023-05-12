@@ -13,12 +13,12 @@
       /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
+  padding: 6px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  margin-bottom: 6px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
@@ -43,6 +43,12 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
   width: 50%;
+  margin-bottom: 2.2rem;
+}
+.content-move{
+ display: flex;
+ justify-content: center;
+
 }
 @media (max-width:502px) {
   .container{
@@ -114,9 +120,9 @@ input[type=submit]:hover {
 
     <h2 class="align-center pt-3 pb-3 text-center ">Contact Me</h2>
 
-    <form action="https://formspree.io/f/xbjewvba" method="post"> <label>
+    <form class="content-move" action="https://formspree.io/f/xbjewvba" method="post"> <label>
       
-    <div class="container widespread" style="margin-left: 24.5rem">
+    <div class="container widespread">
       <form action="action_page.php">
     
         <label for="fname">First Name</label>
@@ -129,7 +135,7 @@ input[type=submit]:hover {
         <input type="text" id="Email" name="email" placeholder="Your email..">
           
         <label for="subject">Message</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
     
         <input type="submit" value="Submit"></form>
 
